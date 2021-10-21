@@ -15,8 +15,15 @@ The api response returns all the possible answers for the personality test by Fo
 ## Platform
 This is a serverless application hosted on AWS Lambda and uses API Gateway.
 
-## Language
+## Language and dependencies
+
 It is build on Kotlin JVM.
+
+Dependency : gson
+
+## Main file
+
+When deployed to AWS Lambda, GetHandler.handleRequest is the main entry point
 
 ## Deployment
 
